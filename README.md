@@ -14,7 +14,7 @@ Equipment:
 •	1 x USB Type-B to USB cable (for programming and power)
 •	Male to Male Jumper Wires
 •	Male to Female Jumper Wires
-•	1 x RGB LED Module (with common anode/cathode)
+•	1 x RGB LED Module (color mixing capable)
 •	1 x Rotary Encoder Module
 
 Objective:
