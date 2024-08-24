@@ -16,6 +16,7 @@ Equipment:
 •	Male to Female Jumper Wires
 •	1 x RGB LED Module (color mixing capable)
 •	1 x Rotary Encoder Module
+• 1 x 25 V capacitor 
 
 Objective:
 In this lab, you will control an RGB LED using a rotary encoder. The rotary encoder will allow you to cycle through the red, green, and blue color channels, adjusting the intensity of each color individually. This lab will help you understand how to use a rotary encoder to interact with Arduino outputs, providing precise control over a multicolored LED.
@@ -33,7 +34,7 @@ o	Connect the blue pin of the RGB LED to pin 11 on the Arduino.
 3.	Rotary Encoder Connection:
 o	Connect the GND pin of the rotary encoder to the - ground rail on the breadboard.
 o	Connect the + (VCC) pin of the rotary encoder to the + power rail on the breadboard.
-o	Connect the CLK pin of the rotary encoder to pin 2 on the Arduino.
+o	Connect the CLK pin of the rotary encoder to pin 2 on the Arduino (place the capacitor so that it is located between the CLK pin and Arduino pin 2, to reduce bounce).
 o	Connect the DT pin of the rotary encoder to pin 3 on the Arduino.
 o	Connect the SW pin of the rotary encoder to pin 7 on the Arduino (used to switch between color channels).
 
